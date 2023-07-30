@@ -17,30 +17,31 @@ PS: I am working as an intern at Foundation Research Center, PCG, Tencent.
 
 # Research
         
-I am generally interested in natural language processing and machine learning. Current interests are on several aspects around large language models: 
-- parameter-efficient tuning -- efficiency, modular, composition 
-- multi-step reasoning
-- factuality -- method and evaluation
-- evaluation of foundation models -- knowledge, reasoning, tool use, etc.
-- data-centric approaches 
-- language model as agent
+## Explainable Reasoning Enhanced by External Knowledge Base
+
+* The cognitive processes underlying the performance of extant language models on diverse downstream reasoning tasks remain largely implicit. We hope that during the reasoning process of the model, the reasoning process can be given in the form of an explanation diagram, so as to improve the reliability of the model reasoning. To achieve that, we designed a pretraining framework based on synthesized pseudo "text-graph" aligned corpus to improve the semantic and structural accuracy of the model.
+* On this basis, we aspire for the explanatory diagram to encompass not only content pertaining to attribute reasoning (empirical reasoning based on external knowledge base), but also incorporate basic logical reasoning (such as elementary first-order predicates, causality, etc.), thereby establishing a comprehensive explicit reasoning framework.
 
 
+## Token-level Explanation Extraction Method
+* Given a piece of context and a query, the aim of the task is to get an answer and a piece of token-level evidence to support the answer from the model.
+* We use a multi-layer filtering: Based on coarse retrieval, we measure the importance of perturbation locations by adding perturbations to the retrieval results and observing their impact on the confidence of the answers and the change in semantic similarity with the original text.
 
 # Publications
 
 
 **Mega: Moving Average Equipped Gated Attention**  
-Xuezhe Ma\*, Chunting Zhou\*, Xiang Kong, *Junxian He*, Liangke Gui, Graham Neubig, Jonathan May, Luke Zettlemoyer  
-ICLR 2023. [[arxiv]](https://arxiv.org/abs/2209.10655)
+*Han Cui*, Shangzhan Li, Yu Zhang, Qi Shi, Explanation Graph Generation via Generative Pre-training over Synthetic Graphs  
+ACL 2023-Findings. [[PDF]](https://aclanthology.org/2023.findings-acl.629.pdf)
 
 
 
 # Service
-Area Chair: EMNLP22, ACL23    
-Reviewer: ICLR, NeurIPS, ICML, ACL, EMNLP, NAACL, ARR, TMLR
+
 
 # Awards
-Baidu PhD Fellowship, class of 2020 (10 recipients worldwide)  
-Outstanding Undergraduate Thesis in SJTU (top 1%)  
-National Scholarship in China (2014/2015/2016)
+* Graduate Scholarship with special distinction (2022.09)
+* First Prize of Baidu Artificial Intelligence Creative Competition (1/248)  (2022.04)
+
+* People's Scholarship * 5 [2019(Spring, Autumn), 2020(Spring, Autumn), 2021(Spring)]
+* The New Elite Scholarship * 2 (2019, 2020)
