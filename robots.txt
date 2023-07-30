@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://cccccent.github.com/sitemap.xml
