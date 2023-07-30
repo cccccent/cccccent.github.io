@@ -17,13 +17,13 @@ PS: I am working as an intern at Foundation Research Center, PCG, Tencent.
 
 # Research
         
-## Explainable Reasoning Enhanced by External Knowledge Base
+Explainable Reasoning Enhanced by External Knowledge Base
 
 * The cognitive processes underlying the performance of extant language models on diverse downstream reasoning tasks remain largely implicit. We hope that during the reasoning process of the model, the reasoning process can be given in the form of an explanation diagram, so as to improve the reliability of the model reasoning. To achieve that, we designed a pretraining framework based on synthesized pseudo "text-graph" aligned corpus to improve the semantic and structural accuracy of the model.
 * On this basis, we aspire for the explanatory diagram to encompass not only content pertaining to attribute reasoning (empirical reasoning based on external knowledge base), but also incorporate basic logical reasoning (such as elementary first-order predicates, causality, etc.), thereby establishing a comprehensive explicit reasoning framework.
 
 
-## Token-level Explanation Extraction Method
+Token-level Explanation Extraction Method
 * Given a piece of context and a query, the aim of the task is to get an answer and a piece of token-level evidence to support the answer from the model.
 * We use a multi-layer filtering: Based on coarse retrieval, we measure the importance of perturbation locations by adding perturbations to the retrieval results and observing their impact on the confidence of the answers and the change in semantic similarity with the original text.
 
